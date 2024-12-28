@@ -1,0 +1,21 @@
+# Node modules (Avoid including in Docker image)
+node_modules
+
+# Yarn cache
+.yarn
+
+# Build output
+/dist
+
+# Environment variables
+.env
+
+# Git
+.git
+.gitignore
+
+# Docker files
+.dockerignore
+
+# Logs
+*.log
